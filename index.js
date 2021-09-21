@@ -26,7 +26,6 @@ function toggleModal() {
 
 function pcChoise() {
     let index = Math.floor(Math.random() * 3)
-    console.log(index)
     let elem = ['rock', 'paper', 'scissors']
     return elem[index]
 }
